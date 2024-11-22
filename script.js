@@ -99,16 +99,16 @@ rightButton.addEventListener("click", () => {
 
 
 const products = [
-    { image: "./imgs/whey.avif", name: "Produto 1", price: 240.50, discountedPrice: 180.38, discountTag: "25% OFF" },
-    { image: "./imgs/whey2.jpg", name: "Produto 2", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
-    { image: "./imgs/whey3.jpg", name: "Produto 3", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
-    { image: "./imgs/whey4.jpg", name: "Produto 4", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
-    { image: "./imgs/whey5.jpg", name: "Produto 5", price: 150.00, discountedPrice: 132.00, discountTag: "20% OFF" },
-    { image: "./imgs/whey6.jpg", name: "Produto 6", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
-    { image: "./imgs/whey7.jpg", name: "Produto 7", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
-    { image: "./imgs/whey8.jpg", name: "Produto 8", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
-    { image: "./imgs/whey9.jpg", name: "Produto 9", price: 150.00, discountedPrice: 177.00, discountTag: "20% OFF" },
-    { image: "./imgs/whey10.jpg", name: "Produto 10", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" }
+    { image: "./imgs/whey7.png", name: "Produto 1", price: 240.50, discountedPrice: 180.38, discountTag: "25% OFF" },
+    { image: "./imgs/whey2.png", name: "Produto 2", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
+    { image: "./imgs/whey3.png", name: "Produto 3", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
+    { image: "./imgs/whey4.png", name: "Produto 4", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
+    { image: "./imgs/whey5.png", name: "Produto 5", price: 150.00, discountedPrice: 132.00, discountTag: "20% OFF" },
+    { image: "./imgs/whey6.png", name: "Produto 6", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
+    { image: "./imgs/whey7.png", name: "Produto 7", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
+    { image: "./imgs/whey8.png", name: "Produto 8", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" },
+    { image: "./imgs/whey9.png", name: "Produto 9", price: 150.00, discountedPrice: 177.00, discountTag: "20% OFF" },
+    { image: "./imgs/whey10.png", name: "Produto 10", price: 150.00, discountedPrice: 120.00, discountTag: "20% OFF" }
 ];
 
 let productIndex = 0;

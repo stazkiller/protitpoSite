@@ -83,7 +83,7 @@ body {
 
 
 .btn-produtos {
-    background-color: #81d482;
+    background-color: #e9f5e9;
     color: rgb(0, 0, 0);
     padding: 8px 12px;
     border-radius: 15px;
@@ -152,13 +152,13 @@ body {
 
 .carousel-container {
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1500px; 
     overflow: hidden;  
     position: relative;
     margin: 40px auto; 
     border-radius: 10px; 
    
-    padding-top: 80px;
+    padding-top: 110px;
 }
 
 
@@ -184,7 +184,7 @@ body {
 
 .carousel-button {
     position: absolute;
-    top: 60%;
+    top: 67%;
     transform: translateY(-50%);
     background-color: rgba(255, 255, 255, 0.6);
     border: none;
@@ -254,6 +254,12 @@ body {
 
 
 
+
+
+
+
+
+/* ======================================================================= */
 
 .sustainability-section {
     text-align: center;
@@ -405,7 +411,7 @@ body {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #e2e2e2;
     height: 250px;
 }
 
@@ -435,6 +441,9 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
 }
 
 
@@ -457,18 +466,23 @@ body {
 
 
 .add-to-cart {
-    background-color: #3c763d;
-    color: white;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-top: 8px;
+display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  border: 2px solid #5cb85c;
+  background-color: white;
+  color: #5cb85c;
+  border-radius: 5px;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
+
+.add-to-cart:hover {
+    background-color: #5cb85c;
+    color: white;
+  }
 
 
 .carousel-dots {
